@@ -12,6 +12,13 @@
   grid-row-end: 2;
 }
 
+.Headerflex {
+  display: flex
+  justify-content: center;
+}
+
+
+
 .Sidebarbox {
   grid-column-start: 3;
   grid-column-end: 4;
