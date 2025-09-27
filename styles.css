@@ -1,29 +1,38 @@
-.Header {
-  grid-area: header
-}
-
-.Sidebar {
-  grid-area: sidebar
-}
-
-.Main {
-  grid-area: main
-}
-
-.Footer {
- grid-area: footer
-}
-
 .container {
   display: grid;
-  grid-template-columns: 150px 150px;
+  grid-template-columns: 150px 150px 150px;
   grid-template-rows: 150px 150px 150px;
   grid-gap: 20px;
-  grid-template-areas:
-    "header header"
-    "main sidebar"
-    "footer footer";
 }
+
+.Headerbox {
+  grid-column-start: 1;
+  grid-column-end: 4;
+  grid-row-start: 1;
+  grid-row-end: 2;
+}
+
+.Sidebarbox {
+  grid-column-start: 3;
+  grid-column-end: 4;
+  grid-row-start: 2;
+  grid-row-end: 2;
+}
+
+.Mainbox {
+  grid-column-start: 1;
+  grid-column-end: 2;
+  grid-row-start: 2;
+  grid-row-end: 2;
+}
+
+.Footerbox {
+  grid-column-start: 1;
+  grid-column-end: 4;
+  grid-row-start: 2;
+  grid-row-end: 3;
+}
+
 
 p {
   font-size: 18px;
