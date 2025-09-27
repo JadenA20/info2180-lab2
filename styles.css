@@ -63,8 +63,21 @@ h2 {
   color: #48BB78
 }
 
-about {
+h3 {
+  font-size: 28px;
+  color: #48BB78
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+#AboutHeading {
+  font-size: 28px;
+  color: #000000;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.About {
   background-color: #E2E8F0;
+  padding: 10px;
 }
 
 footer {
