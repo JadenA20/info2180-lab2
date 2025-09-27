@@ -1,8 +1,8 @@
 .container {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
-  grid-template-rows: 150px auto 50px;
-  grid-gap: 20px;
+  grid-template-rows: 200px auto 50px;
+  grid-gap: 30px;
 }
 
 .Headerbox {
@@ -16,8 +16,6 @@
   display: flex
   justify-content: center;
 }
-
-
 
 .Sidebarbox {
   grid-column-start: 3;
@@ -44,8 +42,7 @@
 p {
   font-size: 18px;
   color: #2D3748;
-  font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica 
-Neue",Arial,"Noto Sans",sans-serif;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif;
 }
 
 header {
@@ -63,17 +60,18 @@ h2 {
   color: #48BB78
 }
 
+#AboutHeading {
+  font-size: 28px;
+  color: #000000;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
 h3 {
   font-size: 28px;
   color: #48BB78
   font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
-#AboutHeading {
-  font-size: 28px;
-  color: #000000;
-  font-family: Georgia, 'Times New Roman', Times, serif;
-}
 
 .About {
   background-color: #E2E8F0;
