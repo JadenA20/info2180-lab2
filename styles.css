@@ -52,11 +52,6 @@ header {
   color: #FFFFFF;
 }
 
-p.header {
-  font-size: 18px;
-  color: #FFFFFF;
-}
-
 p {
   font-size: 18px;
   color: #2D3748;
@@ -70,12 +65,6 @@ h1 {
 h2 {
   font-size: 32px;
   color: #48BB78;
-}
-
-h3.About {
-  font-size: 28px;
-  color: #000000;
-  font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
 .About {
