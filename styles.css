@@ -58,6 +58,11 @@ h1 {
   font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
+h2 {
+  font-size: 32px;
+  color: #48BB78
+}
+
 about {
   background-color: #E2E8F0;
 }
