@@ -14,10 +14,10 @@
 
 .Headerflex {
   display: flex;
-  align-items: center;
+  justify-content: center;
 }
 
-.Myself {
+#Myself {
    border-radius: 50%;
 }
 
