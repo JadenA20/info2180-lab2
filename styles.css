@@ -12,11 +12,6 @@
   grid-row-end: 2;
 }
 
-
-#Myself {
-   border-radius: 50%;
-}
-
 .Sidebarbox {
   grid-column-start: 3;
   grid-column-end: 4;
