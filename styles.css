@@ -12,11 +12,6 @@
   grid-row-end: 2;
 }
 
-.Headerflex {
-  display: flex;
-  grid-column: 1/4
-  grid-row: 1;
-}
 
 #Myself {
    border-radius: 50%;
