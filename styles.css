@@ -5,7 +5,7 @@
   grid-gap: 20px;
 }
 
-#headerbox {
+.headerbox {
   grid-column: 1 / span 2;
   grid-row: 1;
 }
