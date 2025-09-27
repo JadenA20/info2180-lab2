@@ -40,6 +40,10 @@
 
 footer {
   background-color: #2C5282;
+}
+
+p.footer {
+  font-size: 18px;
   color: #FFFFFF;
 }
 
