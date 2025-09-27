@@ -1,6 +1,6 @@
 .container {
   display: grid;
-  grid-template_columns: 150px 150px;
+  grid-template-columns: 150px 150px;
   grid-template-rows: 150px 150px 150px;
   grid-gap: 20px;
 }
@@ -10,17 +10,17 @@
   grid-row: 1;
 }
 
-#sidebarbox {
+.sidebarbox {
   grid-column: 2;
   grid-row: 2;
 }
 
-#mainbox {
+.mainbox {
   grid-column: 1;
   grid-row: 2;
 }
 
-#footerbox {
+.footerbox {
   grid-column: 1;
   grid-row: 3 / span 2;
 }
