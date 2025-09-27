@@ -52,6 +52,10 @@ header {
   color: #FFFFFF;
 }
 
+p.header {
+  font-size: 18px;
+  color: #FFFFFF;
+}
 
 p {
   font-size: 18px;
