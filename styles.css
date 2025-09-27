@@ -2,7 +2,7 @@
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   grid-template-rows: 200px auto 50px;
-  grid-gap: 30px;
+  grid-gap: 25px;
 }
 
 .Headerbox {
@@ -43,19 +43,20 @@ footer {
   color: #FFFFFF;
 }
 
-
 header {
   background-color: #63B3ED;
   color: #FFFFFF;
 }
 
+p.header {
+  font-size: 18px;
+  color: #FFFFFF;
+}
 
 p {
   font-size: 18px;
   color: #2D3748;
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif;
-}
-
 
 h1 {
   font-size: 36px;
@@ -64,18 +65,12 @@ h1 {
 
 h2 {
   font-size: 32px;
-  color: #48BB78
+  color: #48BB78;
 }
 
-#AboutHeading {
+h3.About {
   font-size: 28px;
   color: #000000;
-  font-family: Georgia, 'Times New Roman', Times, serif;
-}
-
-h3 {
-  font-size: 28px;
-  color: #48BB78
   font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
@@ -83,5 +78,13 @@ h3 {
   background-color: #E2E8F0;
   padding: 10px;
 }
+
+h3 {
+  font-size: 28px;
+  color: #48BB78;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+
 
 
