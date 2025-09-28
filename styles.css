@@ -14,7 +14,15 @@
 
 .Headerflex {
   display: flex
+}
+
+.FlexContents {
   justify-content: center;
+  align-items: center;
+}
+
+.Myself {
+  border-radius: 50%;
 }
 
 .Sidebarbox {
