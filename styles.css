@@ -13,7 +13,9 @@
 }
 
 .Headerflex {
-
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 }
 
 .Myself {
